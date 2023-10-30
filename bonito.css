@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+div a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+div a:hover{
+    color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    padding: 50px;
+    margin:auto
+}
+h3 {
+    text-align: center;
+    color:white
+}
