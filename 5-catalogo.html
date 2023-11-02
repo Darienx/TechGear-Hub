@@ -1,13 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Catalogo</title>
     <link rel="stylesheet" href="bonito.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo y Compra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 16px;
+            width: 200px;
+            margin: 12px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            margin: 12px 0;
+        }
+
+        .product p {
+            margin: 8px 0;
+        }
+
+        .product button {
+            background-color: #73077c;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+
+        .product button:hover {
+            background-color: #73077c;
+        }
+    </style>
 </head>
 <body>
+   
     <header>
         <a href="1-inicio.html" class="logo"> 
-            <img src="#" alt="logo de la tienda">
+            <img src="TecHGear.png" alt="logo de la tienda">
             <h2>TechGear Hub</h2> 
         </a>
         <div>
@@ -18,7 +68,56 @@
             <a href="5-catalogo.html" class="nav">Catalogo</a>
             <a href="6-carrito.html" class="nav">Carrito</a>
         </div>
-    </header>
+    </header> 
+    <h1>Catálogo de Productos</h1>
+    <div class="container">
+        <div class="product">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_867059-MCO50532997540_062022-O.webp" alt="Producto 1">
+            <h2>Memoria RAM 8GBx2</h2>
+            <p>Memoria RAM DDR4 con velocidad de 3200Mhz</p>
+            <p>Precio: $100.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
 
+        <div class="product">
+            <img src="https://megacomputer.com.co/wp-content/uploads/2023/10/MOUSE-GAMING-G502-X-PLUS-NEGRO.jpg" alt="Producto 2">
+            <h2>Mouse Gaming Logitech G502 X</h2>
+            <p>Mouse G502 X Plus, Tecnología inalámbrica LIGHTSPEED</p>
+            <p>Precio: $183.400</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+
+        <div class="product">
+            <img src="https://zebbrisshop.co/wp-content/uploads/2021/12/D_NQ_NP_948446-MLA45317859166_032021-O.jpg" alt="Producto 3">
+            <h2>Control Inalambrico Xbox One</h2>
+            <p>Control Inalambrico Xbox One negro</p>
+            <p>Precio: $320.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+
+        <div class="product">
+            <img src="https://www.lg.com/co/images/monitores/md06141156/gallery/M-01.jpg" alt="Producto 4">
+            <h2>Monitor ULTRAGEAR 27</h2>
+            <p>UltraGea de LG es un potente dispositivo de visualización de juegos integrado con funciones de alto rendimiento capaces de responder a los mejores juegos</p>
+            <p>Precio: $900.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+
+        <div class="product">
+            <img src="https://jyrtechnology.com.co/wp-content/uploads/2023/07/JX123-7.jpg" alt="Producto 5">
+            <h2>Chasis Gamer JX123</h2>
+            <p>Chasis Ultimate Gamer PRO edición Legendary, compatible con placa E-ATX</p>
+            <p>Precio: $260.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+
+        <div class="product">
+            <img src="https://www.precio-calidad.com.ar/wp-content/uploads/2021/04/AMD-RYZEN-7-5800X-1.jpg" alt="Producto 6">
+            <h2>Micro Procesador Amd Ryzen 7 5800</h2>
+            <p>Micro Procesador Amd Ryzen 7 5800x 4.7ghz Am4 Sin Cooler</p>
+            <p>Precio: $800.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+    </div>
 </body>
 </html>

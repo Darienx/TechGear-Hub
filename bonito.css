@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    background-color: gray;
+    background-color: black;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header{
     display: flex;
     height: 70px;
-    background-color: aqua;
+    background-color: #ba12f1;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -23,8 +23,8 @@ header{
 }
 
 .logo img{
-    height: 50px;
-    margin-right: 10px;
+    height: 70px;
+    margin-right: 35px;
 }
 
 div a{
@@ -33,7 +33,7 @@ div a{
 }
 
 div a:hover{
-    color: blueviolet;
+    color: #f1a56b;
 }
 
 h1 {
@@ -42,7 +42,17 @@ h1 {
     padding: 50px;
     margin:auto
 }
+h2{
+    color: white;
+}
 h3 {
     text-align: center;
     color:white
+}
+p{
+    color:white
+}
+
+label{
+    color: white;
 }
