@@ -3,6 +3,63 @@
 <head>
     <title>Contactenos</title>
     <link rel="stylesheet" href="bonito.css"/>
+    <style>
+        .formulario-pagina{
+            width: 400px;
+            background-color: #ba12f1;
+            padding: 30px;
+            margin: auto;
+            border-radius: 4px;
+            font-family: 'Lato';
+            color: white;
+            box-shadow: 7px 13px 20px #ba12f1;
+        }
+
+        input{
+            width: 95%;
+            padding: 10px;
+            background-color: #ba12f1;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid black;
+            font-size: 18px;
+            color: white;
+        }
+
+        labelinput{
+            width: 95%;
+            padding: 10px;
+            background-color: #ba12f1;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid black;
+            font-size: 18px;
+            color: white;
+        }
+
+        .boton{
+            width: 100%;
+            border: none;
+            padding: 12px;
+            margin: 16px 0;
+            font-size: 16px;
+            background-color: white;
+            color: black;
+        }
+        .title{
+            font-size: 25px;
+            text-align: center;
+        }
+        label{
+            font-size: 20px;
+        }
+
+        .Mensaje{
+            width: 85%;
+            padding: 30px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -22,6 +79,7 @@
     <h1>Contactenos</h1>
     <div class="formulario-pagina">
         <form>
+            <p class="title">Ingrese sus datos</p>
             <label for="n">Nombre</label><br>
             <input placeholder="Paco Rocha..." />
             <br>
@@ -36,11 +94,22 @@
             <br>
             <label for="co">Correo eléctronico</label><br>
             <input placeholder="email@gmail.com..." /><br>
-            <input type="submit" value="Enviar">
+
+            <label for="tipo">Queja</label>
+            <input type="checkbox" id="Queja">
+
+            <label for="tipo">Reclamación</label>
+            <input type="checkbox" id="Reclamación">
+
+            <label for="tipo">Sugerencia</label>
+            <input type="checkbox" id="Sugerencia">
+
+            <label for="men">Mensaje</label><br>
+            <input class="Mensaje" placeholder="Escribe tu mensaje..." /><br>
+            <br>
+
+            <input class="boton" type="submit" value="Enviar">
         </form>
     </div>
-    
-
-
 </body>
 </html>
