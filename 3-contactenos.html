@@ -6,19 +6,19 @@
     <style>
         .formulario-pagina{
             width: 400px;
-            background-color: #ba12f1;
+            background-color: #73077c;
             padding: 30px;
             margin: auto;
             border-radius: 4px;
             font-family: 'Lato';
             color: white;
-            box-shadow: 7px 13px 20px #ba12f1;
+            box-shadow: 7px 13px 20px #73077c;
         }
 
         input{
             width: 95%;
             padding: 10px;
-            background-color: #ba12f1;
+            background-color: #73077c;
             border-radius: 4px;
             margin-bottom: 16px;
             border: 1px solid black;
@@ -29,7 +29,7 @@
         labelinput{
             width: 95%;
             padding: 10px;
-            background-color: #ba12f1;
+            background-color: #73077c;
             border-radius: 4px;
             margin-bottom: 16px;
             border: 1px solid black;
@@ -62,9 +62,9 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="encabezado">
         <a href="1-inicio.html" class="logo"> 
-            <img src="TecHGear.png" alt="logo de la tienda">
+            <img src="IMG/TecHGear.png" alt="logo de la tienda">
             <h2>TechGear Hub</h2> 
         </a>
         <div>
@@ -72,7 +72,7 @@
             <a href="2-quienes_somos.html" class="nav">Quienes somos </a>
             <a href="3-contactenos.html" class="nav">Contactenos</a>
             <a href="4-mapa.html" class="nav">Mapa</a>
-            <a href="5-catalogo.html" class="nav">Catalogo</a>
+            <a href="5-catalogo.html" class="nav">Cátalogo</a>
             <a href="6-carrito.html" class="nav">Carrito</a>
         </div>
     </header>
@@ -81,31 +81,31 @@
         <form>
             <p class="title">Ingrese sus datos</p>
             <label for="n">Nombre</label><br>
-            <input placeholder="Paco Rocha..." />
+            <input />
             <br>
             <label for="e">Edad</label><br>
-            <input placeholder="60..." />
+            <input />
             <br>
             <label for="d">Dirección</label><br>
-            <input placeholder="Calle 51..." />
+            <input />
             <br>
             <label for="c">Número de teléfono</label><br>
-            <input placeholder="3123456789..." />
+            <input  />
             <br>
             <label for="co">Correo eléctronico</label><br>
-            <input placeholder="email@gmail.com..." /><br>
+            <input /><br>
 
             <label for="tipo">Queja</label>
             <input type="checkbox" id="Queja">
 
-            <label for="tipo">Reclamación</label>
+            <label for="tipo">Reclamo</label>
             <input type="checkbox" id="Reclamación">
 
             <label for="tipo">Sugerencia</label>
             <input type="checkbox" id="Sugerencia">
 
             <label for="men">Mensaje</label><br>
-            <input class="Mensaje" placeholder="Escribe tu mensaje..." /><br>
+            <input class="Mensaje" /><br>
             <br>
 
             <input class="boton" type="submit" value="Enviar">

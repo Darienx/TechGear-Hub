@@ -8,10 +8,10 @@ a {
     color: white;
 }
 
-header{
+.encabezado{
     display: flex;
     height: 70px;
-    background-color: #ba12f1;
+    background-color: #73077c;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
