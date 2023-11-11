@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: black;
+    font-family: Arial, sans-serif;
 }
 
 a {
@@ -32,7 +33,7 @@ div a{
     padding-right: 10px;
 }
 
-div a:hover{
+a:hover{
     color: #f1a56b;
 }
 
