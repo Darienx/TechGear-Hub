@@ -15,8 +15,8 @@
 header h1{
     text-align: center;
     font-size: 35px;
-    background-color: #000; 
-    color: #fff;
+    background-color: black; 
+    color: white;
     padding: 30px 0;
 }
 .contenedor{
@@ -40,10 +40,12 @@ header h1{
 .contenedor .contenedor-items .item{
     max-width: 200px;
     margin: auto;
-    border: 1px solid #666;
+    border: 1px solid gray;
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
+}
+.contenedor .contenedor-items .item:hover{
     box-shadow: 0 0 10px #73077c;
     scale: 1.05;
 }
@@ -69,13 +71,13 @@ header h1{
     margin: 10px auto;
     border: none;
     background-color: #73077c;
-    color: #fff;
+    color: white;
     padding: 5px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
 .carrito{
-    border: 1px solid #666;
+    border: 1px solid grey;
     width: 35%;
     margin-top: 30px;
     border-radius: 10px;
@@ -84,7 +86,7 @@ header h1{
     position: sticky !important;
     top: 0;
     transition: .3s;
-    /* Estilos para ocultar */
+    
     margin-right: -100%;
     opacity: 0;
     text-align: center;
@@ -93,7 +95,7 @@ header h1{
 }
 .carrito .header-carrito{
     background-color: #73077c;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 30px 0;
 }
@@ -136,7 +138,7 @@ header h1{
     line-height: 32px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid black;
     cursor: pointer;
 }
 .carrito .carrito-item .carrito-item-precio{
@@ -157,7 +159,7 @@ header h1{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid black;
     cursor: pointer;
     display: block;
     background: transparent;
@@ -184,7 +186,7 @@ header h1{
     width: 100%;
     border: none;
     background: #73077c;
-    color: #fff;
+    color: white;
     border-radius: 5px;
     font-size: 18px;
     padding: 20px;
@@ -217,7 +219,7 @@ strong{
             <a href="1-inicio.html" class="nav">Inicio</a>
             <a href="2-quienes_somos.html" class="nav">Quienes somos </a>
             <a href="3-contactenos.html" class="nav">Contactenos</a>
-            <a href="4-mapa.html" class="nav">Mapa</a>
+            <a href="4-Localización.html" class="nav">Localización</a>
             <a href="5-catalogo.html" class="nav">Cátalogo</a>
             <a href="6-carrito.html" class="nav">Carrito</a>
         </div>
@@ -236,7 +238,7 @@ strong{
             </div>
             <div class="item">
                 
-                <img src="IMG/MOUSE-GAMING-G502-X-PLUS-NEGRO.webp" alt="" class="img-item">
+                <img src="IMG/MOUSE-GAMING-G502-X-PLUS-NEGRO.jpg" alt="" class="img-item">
                 <span class="titulo-item">Mouse G502 X Plus</span><br>
                 <p>Mouse G502 X Plus, Tecnología inalámbrica LIGHTSPEED</p>
                 <span class="precio-item">$183.400</span>
@@ -268,8 +270,22 @@ strong{
             <div class="item">
                 <img src="IMG/AMD-RYZEN-7-5800X.jpg" alt="" class="img-item"> 
                 <span class="titulo-item">Procesador Amd Ryzen 7 5800x</span><br>
-                <p>Micro Procesador Amd Ryzen 7 5800x 4.7ghz Am4 Sin Cooler</p>
+                <p>Micro Procesador Amd Ryzen 7 5800x 4.7GHz Am4 Sin Cooler</p>
                 <span class="precio-item">$800.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="IMG/TARJETA-MADRE.webp" alt="" class="img-item"> 
+                <span class="titulo-item">Tarjeta madre Gigabyte A520M s2h</span><br>
+                <p>Tarjeta madre Gigabyte con dos modulos de memoria RAM y Zócalo AM4</p>
+                <span class="precio-item">$280.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <img src="IMG/Procesador-INTEL-CORE-i5-13600K.jpg" alt="" class="img-item"> 
+                <span class="titulo-item">Procesador Intel i5-13600K</span><br>
+                <p>Micro Procesador Intel i5 de doceava generación 5.1GHz</p>
+                <span class="precio-item">$999.999</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>

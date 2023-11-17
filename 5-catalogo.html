@@ -7,12 +7,17 @@
     <title>Catálogo y Compra</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans';
+
         }
-        .container {
+        .container .container-product {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+        }
+        .container .container-product .product:hover {
+            box-shadow: 0 0 10px #73077c;
+            scale: 1.05;
         }
         .product {
             border: 1px solid white;
@@ -58,15 +63,16 @@
             <a href="1-inicio.html" class="nav">Inicio</a>
             <a href="2-quienes_somos.html" class="nav">Quienes somos </a>
             <a href="3-contactenos.html" class="nav">Contactenos</a>
-            <a href="4-mapa.html" class="nav">Mapa</a>
+            <a href="4-Localización.html" class="nav">Localización</a>
             <a href="5-catalogo.html" class="nav">Cátalogo</a>
             <a href="6-carrito.html" class="nav">Carrito</a>
         </div>
     </header> 
     <h1>Catálogo de Productos</h1>
-    <div class="container">
+<div class="container">
+    <div class="container-product">
         <div class="product">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_867059-MCO50532997540_062022-O.webp" alt="Producto 1">
+            <img src="IMG/RAM 8X2.webp" alt="Producto 1">
             <h2>Memoria RAM 8GBx2</h2>
             <p>Memoria RAM DDR4 con velocidad de 3200Mhz</p>
             <p>Precio: $100.000</p>
@@ -74,7 +80,7 @@
         </div>
 
         <div class="product">
-            <img src="https://megacomputer.com.co/wp-content/uploads/2023/10/MOUSE-GAMING-G502-X-PLUS-NEGRO.jpg" alt="Producto 2">
+            <img src="IMG/MOUSE-GAMING-G502-X-PLUS-NEGRO.jpg" alt="Producto 2">
             <h2>Mouse Gaming Logitech G502 X</h2>
             <p>Mouse G502 X Plus, Tecnología inalámbrica LIGHTSPEED</p>
             <p>Precio: $183.400</p>
@@ -82,7 +88,7 @@
         </div>
 
         <div class="product">
-            <img src="https://zebbrisshop.co/wp-content/uploads/2021/12/D_NQ_NP_948446-MLA45317859166_032021-O.jpg" alt="Producto 3">
+            <img src="IMG/CONTROL DE XBOX.jpg" alt="Producto 3">
             <h2>Control Inalambrico Xbox One</h2>
             <p>Control Inalambrico Xbox One negro</p>
             <p>Precio: $320.000</p>
@@ -98,7 +104,7 @@
         </div>
 
         <div class="product">
-            <img src="https://jyrtechnology.com.co/wp-content/uploads/2023/07/JX123-7.jpg" alt="Producto 5">
+            <img src="IMG/CHASIS.jpg" alt="Producto 5">
             <h2>Chasis Gamer JX123</h2>
             <p>Chasis Ultimate Gamer PRO edición Legendary, compatible con placa E-ATX</p>
             <p>Precio: $260.000</p>
@@ -106,12 +112,27 @@
         </div>
 
         <div class="product">
-            <img src="https://www.precio-calidad.com.ar/wp-content/uploads/2021/04/AMD-RYZEN-7-5800X-1.jpg" alt="Producto 6">
+            <img src="IMG/AMD-RYZEN-7-5800X.jpg" alt="Producto 6">
             <h2>Micro Procesador Amd Ryzen 7 5800</h2>
             <p>Micro Procesador Amd Ryzen 7 5800x 4.7ghz Am4 Sin Cooler</p>
             <p>Precio: $800.000</p>
             <button><a href="6-carrito.html">Comprar</a></button>
         </div>
+        <div class="product">
+            <img src="IMG/TARJETA-MADRE.webp" alt="Producto 6">
+            <h2>Tarjeta madre Gigabyte A520M S2H</h2>
+            <p>Tarjeta madre Gigabyte con dos modulos de memoria RAM y Zócalo AM4</p>
+            <p>Precio: $280.000</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
+        <div class="product">
+            <img src="IMG/Procesador-INTEL-CORE-i5-13600K.jpg" alt="Producto 6">
+            <h2>Micro Procesador Amd Ryzen 7 5800</h2>
+            <p>Micro Procesador Intel i5 de doceava generación 5.1GHz</p>
+            <p>Precio: $999.999</p>
+            <button><a href="6-carrito.html">Comprar</a></button>
+        </div>
     </div>
+</div>
 </body>
 </html>
